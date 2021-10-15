@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper,fleqn,leqno,titlepage]{article}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\usepackage{enumerate}
+\title{Ćwiczenie 1}
+\author{162}
+\date{08.10.2021}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit iaculis turpis pharetra auctor. Aenean ac ante \\linebreak
+sit amet elit rhoncus aliquam. Mauris a erat elementum neque volutpat fermentum sit amet interdum diam. Duis quis augue neque.
+Sed porttitor justo sed velit sollicitudin sagittis. Mauris suscipit malesuada diam. Aenean congue arcu at eros tristique, 
+quis imperdiet felis faucibus. \newline Integer feugiat pulvinar rutrum. Duis eget dui sapien. Nulla rutrum leo vel ante ullamcorper 
+tristique. Phasellus mauris lacus, condimentum quis luctus sollicitudin, facilisis sed risus. Aenean sed leo ac augue 
+ursus ornare et in eros. Praesent quis nisl nisl. Integer laoreet aliquet est, in luctus purus congue id. Nullam 
+vitae luctus arcu. Nullam rutrum sapien sit amet vestibulum tristique.
+\begin{equation}
+E = mc^2
+\end{equation}
+
+\clearpage
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+\section{Wstęp}
+
+W rozdziale 1. opisywaliśmy kilka spektakularnych osiągnięć na polu sztucznej inteligencji,
+między innymi zwycięstwo IBM-owskiego superkomputera Watson w potyczce o milion dolarów
+z dwoma arcymistrzami teleturnieju Jeopardy! (firma IBM przeznaczyła wygraną na cele charytatywne). Zdolność Watsona do wykonywania równolegle kilkuset algorytmów przetwarzania języka naturalnego okazała się wystarczająca do odnajdywania właściwych odpowiedzi w repozytorium o rozmiarze 4 terabajtów, zawierającym ponad 200 milionów stron wiedzy, między innymi
+całą Wikipedię1 2
+.Ten spektakularny sukces to zasługa badaczy z IBM, którzy wyszkolili Watsona, używając technik uczenia maszynowego (poświęcamy mu następny rozdział) oraz uczenia ze wzmocnieniem (reinforcement-learning)
+3
+.
+Przygotowując niniejszą książkę i prowadząc związane z tym rozeznanie tematu, nie mogliśmy
+nie zainteresować się coraz większą popularnością superkomputera Watson; zapuściliśmy odpowiednią sondę w Google Alerts i otrzymaliśmy w rezultacie ponad 900 różnych artykułów,
+cytatów z dokumentacji i blogów, filmów i fotografii. Równocześnie postanowiliśmy przyjrzeć
+się nico dokładniej konkurencyjnym usługom, w porównaniu z którymi Watson okazał się (nomen
+omen) bezkonkurencyjny, jako jedna z najbardziej przyjaznych usług, z darmową warstwą Lite
+tier4
+, dzięki której wszyscy fascynujący się osiągnięciami sztucznej inteligencji mogą poeksperymentować z Watsonem bez wnoszenia jakichkolwiek opłat („no credit card required”).
+IBM Watson to oparta na chmurze platforma poznawczego przetwarzania danych (cognitive computing), popularna w wielu zastosowaniach do szerokiego spektrum rozmaitych scenariuszy z rzeczywistego świata. Systemy jej przetwarzania poznawczego okazują się coraz bardzie
+sprawne w takich zadaniach, jak rozpoznawanie wzorców czy symulowanie ludzkiego mózgu
+w procesach decyzyjnych, w miarę jak konsumują coraz większe wolumeny danych treningowych5 6 7
+. W tabeli 13.1 przedstawiamy arbitralnie wybraną listę obszarów, w jakich wiele firm,
+instytucji, organizacji i agencji z powodzeniem spożytkowuje możliwości Watsona.
+Watson oferuje mnóstwo intrygujących możliwości, które programiści wykorzystywać mogą
+w tworzonych przez siebie aplikacjach. Gdy założysz konto IBM Cloud8
+, czytając ten rozdział,
+będziesz mógł na bieżąco implementować opisywane elementy aplikacji, na bazie darmowego
+
+\subsection{IBM Cloud i konsola usług}
+By uzyskać dostęp do darmowych usług Lite tier Watsona, musisz założyć konto IBM Cloud.
+Na stronach WWW zawierających opisy poszczególnych usług znajdziesz szczegółowe opisy
+korzystania z nich oraz informację o ograniczeniach wynikających z darmowego trybu tego
+korzystania. Choć usługi warstwy Lite tier charakteryzują się wieloma ograniczeniami, są wystarczające zarówno do celów edukacyjnych — czyli poznawania możliwości platformy — jak i do
+praktycznych zastosowań w aplikacjach. Wspomniane ograniczenia są specyficzne dla poszczególnych usług, mogą się zmieniać z upływem czasu, nie próbujemy więc ich tu wymieniać, odsyłając zainteresowanych Czytelników do stron WWW z opisami usług. Niestety, w trakcie pisania
+tej książki zaobserwowaliśmy, że w przypadku wielu usług ograniczenia te stawały się coraz
+bardziej restrykcyjne. Oczywiście na potrzeby tworzenia komercyjnych aplikacji IBM oferuje
+szeroką gamę płatnego dostępu do swych usług.
+\newline
+
+\$
+\# %komentarz
+\& %%komentarz
+\newpage
+
+\subsection{lista numerowana}
+
+\begin{enumerate}
+\setcounter{enumi}{5}
+\item [i)]
+\item [i.]
+\item [A)]
+\item [a.]
+\item piąty
+\item trzy
+
+\end{enumerate}
+
+\subsection{lista punktowa i inne}
+
+\begin{itemize}
+\item[$\Box$] aaa
+\item bbb
+\item[$\circ$] aaa
+\end{itemize}
+
+
+
+\begin{itemize}
+\item[$\Box$] aaa
+\item[$\blacksquare$] bbb
+\item[$\circ$] aaa
+\item[NOTE] qweasdzxc
+\end{itemize}
+
+
+
+
+\end{document}
