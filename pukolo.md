@@ -12,3 +12,9 @@ Lorem
 \end{document}
 
 ```
+
+### 2. section bez numeracji nie wchodzi w spis treści
+
+```latex
+\section*{Wprowadzenie}
+```
