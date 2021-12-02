@@ -18,3 +18,9 @@ Lorem
 ```latex
 \section*{Wprowadzenie}
 ```
+### 3. Generator do tabel
+https://www.tablesgenerator.com/latex_tables
+
+
+
+
