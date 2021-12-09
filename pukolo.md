@@ -21,6 +21,8 @@ Lorem
 ### 3. Generator do tabel
 https://www.tablesgenerator.com/latex_tables
 
+### 4. Wzory matematyczne
+https://www.caam.rice.edu/~heinken/latex/symbols.pdf
 
 
 
