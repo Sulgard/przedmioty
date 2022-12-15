@@ -1,0 +1,4 @@
+przedział od 0.65 do 0.69
+z prawdopodobieństwe równym 0.95
+pokrywa nieznaną wartośc średnią 
+czasu trfania efektu świetlnego
