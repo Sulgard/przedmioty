@@ -1,0 +1,14 @@
+#estymacja
+#weryfikacja hipotez < do tej pory
+#hipotezy statystyczne
+h0 = nie ma róznic | m = 3 
+h1 = są różnice | m > 3 | m < 3 |  m != 3
+
+wykresy 2W > normalne > dodaj zmienna > Test Shapiro-Wilka
+Statystyki podstawowe i tabele
+test t dla pojedyńczej próby 
+zaznaczyć 4 
+
+Na końcu było to: Nie ma podstaw do odrzucenia hipotezy o jednorodności wariancji
+
+p/2=0,44<0,05 odrzucamy H0 na korzyść H1
