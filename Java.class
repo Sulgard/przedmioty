@@ -1,0 +1,78 @@
+package zadanie1;
+
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.Objects;
+import java.util.Vector;
+
+
+public class Java extends ProgrammingLanguage implements Cloneable, Comparable<Java>{
+    private LocalDate dateOfStart = null;
+    private Date dateTheLatestRelease = null;
+    private Vector<String> properties = null;
+
+    {
+        dateOfStart = LocalDate.of(1995, 5, 23);
+    }
+
+    public Java(boolean isObjectOriented, Vector<String> prop) {
+        super(isObjectOriented);
+        this.properties = prop;
+        this.dateTheLatestRelease = new Date();
+    }
+
+
+
+    public Vector<String> getProperties() {
+        return properties;
+    }
+
+    public LocalDate getDateOfStart() {
+        return dateOfStart;
+    }
+
+    public void setDateOfStart(LocalDate dateOfStart) {
+        this.dateOfStart = dateOfStart;
+    }
+
+    public String toString() {
+        return "Language: " + getClass().getSimpleName()
+                + ", dateOfStart = " + dateOfStart
+                + ", dateTheLatestRelease = " + dateTheLatestRelease
+                + ", properties = " + properties;
+    }
+
+
+    public Java clone() throws CloneNotSupportedException {
+        Java cloned = (Java) super.clone();
+        cloned.dateTheLatestRelease = (Date) dateTheLatestRelease.clone();
+        cloned.properties = (Vector<String>) properties.clone();
+        return cloned;
+    }
+
+    public int compareTo(Java o) {
+        int result = this.dateTheLatestRelease.compareTo(o.dateTheLatestRelease);
+        if(result == 0)
+        {
+            return 0;
+        } else if (result > 0) {
+            return 1;
+        }else {
+            return -1;
+        }
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Java java = (Java) o;
+        return Objects.equals(dateTheLatestRelease, java.dateTheLatestRelease);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(dateTheLatestRelease, properties);
+    }
+}
