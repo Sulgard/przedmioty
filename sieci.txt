@@ -1,0 +1,182 @@
+
+Wersja systemu gospodarza: Windows 10 Education x64
+Wersja Oracle VirtualBox: Wersja 6.1.38 r153438 (Qt5.6.2)
+Wersja systemu gościa: Windows 10 Education N x86
+
+
+1. Wynik polecenia ipconfig /all z komputera gospodarza:
+
+Microsoft Windows [Version 10.0.19045.2604]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\local>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-718DGH2
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : wmii.local
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-13
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::8885:c812:f884:6259%19(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 403308583
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-A6-57-02-D8-5E-D3-06-D7-E8
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : wmii.local
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : BC-AE-C5-CD-89-76
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::200e:54b6:5425:f42f%13(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.13.10(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : środa, 22 lutego 2023 13:41:12
+   Lease Expires . . . . . . . . . . : środa, 22 lutego 2023 15:41:12
+   Default Gateway . . . . . . . . . : 192.168.13.1
+   DHCP Server . . . . . . . . . . . : 192.168.13.1
+   DHCPv6 IAID . . . . . . . . . . . : 566013637
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-A6-57-02-D8-5E-D3-06-D7-E8
+   DNS Servers . . . . . . . . . . . : 213.184.8.5
+                                       213.184.8.10
+                                       213.184.8.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : D-Link DFE-528TX PCI Adapter
+   Physical Address. . . . . . . . . : 00-13-46-31-E8-0A
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::d1c7:c291:8bc0:1a43%15(Preferred)
+   Autoconfiguration IPv4 Address. . : 169.254.159.126(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 570445910
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-A6-57-02-D8-5E-D3-06-D7-E8
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::7e4d:7386:5dc4:ac0%9(Preferred)
+   Autoconfiguration IPv4 Address. . : 169.254.214.205(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 604000342
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-A6-57-02-D8-5E-D3-06-D7-E8
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   Primary WINS Server . . . . . . . : 192.168.47.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\local>
+
+
+Usługi » Windows Update » zatrzymaj/wyłącz
+
+Gość
+Microsoft Windows [Version 10.0.19045.2006]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\Win10_A>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-1DLLTC1
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : wmii.local
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : wmii.local
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physical Address. . . . . . . . . : 08-00-27-B0-C9-84
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::c452:8a84:2a5:25e0%4(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.13.193(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : środa, 22 lutego 2023 14:47:21
+   Lease Expires . . . . . . . . . . : środa, 22 lutego 2023 16:47:20
+   Default Gateway . . . . . . . . . : 192.168.13.1
+   DHCP Server . . . . . . . . . . . : 192.168.13.1
+   DHCPv6 IAID . . . . . . . . . . . : 101187623
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-87-D0-16-08-00-27-B0-C9-84
+   DNS Servers . . . . . . . . . . . : 213.184.8.5
+                                       213.184.8.10
+                                       213.184.8.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\Win10_A>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-1DLLTC1
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : wmii.local
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : wmii.local
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physical Address. . . . . . . . . : 08-00-27-B0-C9-84
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::c452:8a84:2a5:25e0%4(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.13.193(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : środa, 22 lutego 2023 14:47:21
+   Lease Expires . . . . . . . . . . : środa, 22 lutego 2023 16:47:21
+   Default Gateway . . . . . . . . . : 192.168.13.1
+   DHCP Server . . . . . . . . . . . : 192.168.13.1
+   DHCPv6 IAID . . . . . . . . . . . : 101187623
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-87-D0-16-08-00-27-B0-C9-84
+   DNS Servers . . . . . . . . . . . : 213.184.8.5
+                                       213.184.8.10
+                                       213.184.8.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\Win10_A>
+
