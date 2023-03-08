@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T14:36:52.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.2" etag="zSm-3c8nXtTyh6XUHsG9" type="github"><diagram name="Strona-1" id="ohwpmoZubbnZ7y5zIjTl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-08T15:26:40.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dRnStYMe5HiwYMiql8f9" version="21.0.2" type="github" pages="2">
+  <diagram name="Strona-1" id="ohwpmoZubbnZ7y5zIjTl">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V41wOyriI2044Y9nH9bs-2" value="SWT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="430" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-3" value="Weryfikuj zgłoszenie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="V41wOyriI2044Y9nH9bs-4" target="V41wOyriI2044Y9nH9bs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="V41wOyriI2044Y9nH9bs-4" target="V41wOyriI2044Y9nH9bs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Szef&lt;br&gt;" Szef="" id="V41wOyriI2044Y9nH9bs-4">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+            <mxGeometry x="50" y="200" width="30" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="V41wOyriI2044Y9nH9bs-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="V41wOyriI2044Y9nH9bs-9" target="V41wOyriI2044Y9nH9bs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-9" value="Pracownik&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="V41wOyriI2044Y9nH9bs-10" target="V41wOyriI2044Y9nH9bs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-10" value="Specjalista&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-11" value="Zarządzaj zgłoszeniem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-16" value="Realizuj zgłoszenie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V41wOyriI2044Y9nH9bs-21" value="Konsultuj&lt;br&gt;zgłoszenie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vxLe8RcjeK--7fskcug3" name="Strona-2">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="560" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-2" value="Opracuj szkolenie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MH19Xm-NW6tsT8XDVJ-Z-3" target="MH19Xm-NW6tsT8XDVJ-Z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-3" value="D.przygotowania&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MH19Xm-NW6tsT8XDVJ-Z-6" target="MH19Xm-NW6tsT8XDVJ-Z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-6" value="Wystaw certyfikat" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MH19Xm-NW6tsT8XDVJ-Z-7" target="MH19Xm-NW6tsT8XDVJ-Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MH19Xm-NW6tsT8XDVJ-Z-7" target="MH19Xm-NW6tsT8XDVJ-Z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-7" value="D.realizacji&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-8" value="Uczestnik&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH19Xm-NW6tsT8XDVJ-Z-12" value="Stwórz grafik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
