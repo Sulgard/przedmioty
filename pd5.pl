@@ -68,3 +68,6 @@ st(W1+W2,X,N):-st(W1,X,N1),st(W2,X,N2),N is max (N1,N2).
 st(W1-W2,X,N):-st(W1,X,N1),st(W2,X,N2),N is max (N1,N2).
 st(W1*W2,X,N):-st(W1,X,N1),st(W2,X,N2),N is N1+N2.
 st(W1^N,X,N1):-integer(N),N>1,st(W,X,N2), N1 is N2*N.
+
+% NA KOLOKWIUM UZGADNIANIE LIST
+
