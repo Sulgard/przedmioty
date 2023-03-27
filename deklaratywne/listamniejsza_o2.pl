@@ -10,6 +10,6 @@ listamniejsza_o2([],[]).
 
 % rekurencja:
 
-listamniejsza_o2([H1|T1],[H2,T2]):-
+listamniejsza_o2([H1|T1],[H2|T2]):-
 		H2 is H1-2,
 		listamniejsza_o2(T1,T2).
