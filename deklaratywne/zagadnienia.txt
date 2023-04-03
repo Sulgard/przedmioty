@@ -1,7 +1,7 @@
 1. zgadnianie termów
 2. listy/ definicja rekurencyjna, zdefiniować predykat
 3. drzewo
-4. zdefiniować przy pomocy metlist
+4. zdefiniować przy pomocy maplist
 5.
 #konkatenacja - połączączenie dwóch list (lista jest konkatenacją tych dwóch list)
 #nazwy predykatów z małej litery piszemy
