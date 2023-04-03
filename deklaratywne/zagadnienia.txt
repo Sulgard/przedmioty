@@ -4,3 +4,4 @@
 4. zdefiniować przy pomocy metlist
 5.
 #konkatenacja - połączączenie dwóch list (lista jest konkatenacją tych dwóch list)
+#nazwy predykatów z małej litery piszemy
