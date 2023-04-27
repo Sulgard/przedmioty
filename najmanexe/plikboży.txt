@@ -1,0 +1,89 @@
+##########Zadanie1############
+mkdir Praca
+itd. 
+##########Zadanie2############
+ls -l ~ > Tekst.txt --------- zapisywanie ls z katalogu domowego do pliku
+cp Tekst.txt ~/
+cp Tekst.txt ~/WORK/Joel/Girl/Good/KopiaTekst.txt
+##########Zadanie3############
+tree ~/WORK/ >> drzewo - stworzenie drzewa w jakimś wybranym miejscu i 
+wklejenie go do pliku o wskazanej lokalizacji
+
+tree ~/WORK/ > ~/WORK/Cindy/drzewo2 - a tutaj stworzenie pliku dodatkowo :P
+
+##########Zadanie4############
+ls -iksde 2> Blad.txt przypisanie blednego polecenia shell do pliku 
+chmod 641 Blad.txt
+
+chmod -v  u+rw,g+r,o+x Blad.txt - to samo 
+-v daje to że pokazuje zmiany dokonane na pliku
+
+##########Zadanie5############
+
+dopisz do pliku X w katalogu Y nazwy plików 6-znakowych
+z katalogu domowego gdzie w naziwe pierwszy symbol jest dowolny, druig - jeden z 
+'a','k','5', trzeci - litera b, reszta dowolna
+
+find ~/ -type f -name "?[ak5]b???" >> ~/WORK/Joel/Uptown/Blad.txt
+
+? - dowolna 
+[ak5] - jedna z tych trzech 
+b - to litera b
+[a-z] - litera z przedziału
+
+###########Zadanie6###########
+Wyszukaj wszystkie pliki w katalogu domowym 
+do których był dostęp w ciągu ostatnich 15 dni
+
+wyświetl ich nazwy oraz zawartość 
+
+find ~/ -type f -maxdepth 3 -atime -15 -exec cat {} \;
+
+-exec cat {} \; odczyta każdy plik 
+
+można zrobić - print i tylko je wypisze ale już bez -exec 
+
+find ~/ -type f -maxdepth 3 -atime -15 -print
+############Zadanie7############
+
+grep -r '^..[oem].*' ~/ | wc -lw
+
+############Zadanie8############
+
+find /dev -maxdepth 1 -type f | wc -l
+find /dev -maxdepth 1 -type d | wc -l
+
+############Zadanie9############
+mkdir -pm 764 ~/ModaNowa
+
+############Zadanie10###########
+
+find /dev -type c -name 'tty*' > Znakowe.txt
+find /dev -type c - name 'tty*' |wc -l >> Znakowe.txt
+
+ls -l /dev | grep '^c' >> Znakowe.txt
+
+########Zadanie1#######
+mkdir SONGS
+mkdir -p ~/Long/Tall/Sally
+mkdir -p ~/Take/On/Me
+########Zadanie2#######
+touch grzybki.txt
+ls -l ~/ >> grzybki.txt
+
+cp grzybki.txt ~/
+
+cp grzbki.txt ~/innykatalog/grzybki2.txt
+
+#########Zadanie3######
+
+find ~/ -maxdepth 1 -type f | wc -l > Zestawienie.txt
+
+#########Zadanie6######
+
+find ~/ -maxdepth 3 -type d -name "?[b-m,p-t,z]*" -amin +45
+
+grep -r "^for i" *
+
+ln -s [miejsce docelowe] [nazwa dowiazania]
+
