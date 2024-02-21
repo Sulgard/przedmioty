@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define BIT_VALUE(value, noBit) (value >> noBit) & 1
+unsigned int counter = 0;
+
+void delay()
+{
+
+    int a,b;
+    for(a=0; a <=147483647; a++);
+    {
+        for(b=0; b<=512;b++);
+        {
+
+
+        }
+    }
+}
+
+/*
+int bitpos(int value, int no_bit){
+
+    for(int i = 1; i < no_bit; i++){
+        if((value & )){
+            return i;
+        }else{
+        value >> 1;
+        }
+    }
+
+}
+*/
+
+int main()
+{
+
+    int IntToGray(unsigned char input)
+    {
+
+        return (input >> 1) ^ input;
+    }
+
+    //printf("%d", value & 1);
+    while(1)
+    {
+        printf("\r");
+        for(int i = 7; i >= 0; i--)
+        {
+
+            printf("%d", BIT_VALUE(counter,i));
+        }
+        printf("    ");
+        for(int i=7; i>=0; i--)
+        {
+            printf("%d", BIT_VALUE(IntToGray(counter),i));
+        }
+        counter++;
+        delay();
+    }
+
+    // char albo integer, funkcja która pozwoli wyświetlić zmienną w formacie dziesiętnym i wyświetli ją w formacie binarnym, sprawdzenie wartości bitu na konkretnym miejscu.
+    // nie używanie operatorów dzielenia, and or xor przsuniecia bitowe 0111 >> 1 = 0011, 0111 << 1 = 1110 val, no_bit
+    return 0;
+}
